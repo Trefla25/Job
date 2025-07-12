@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "RunPublishHti": {
+      "commandName": "Executable",
+      "launchBrowser": true,
+      "executablePath": "..\\..\\publish\\eHub_3.8.2\\eController.IntegrationHub.exe",
+      "workingDirectory": "..\\..\\publish\\eHub_3.8.2",
+      "commandLineArgs": "--environment=Publish --econfig-root=../../config",
+      "applicationUrl": "http://0.0.0.0:36000"
+    }
+  }
+}

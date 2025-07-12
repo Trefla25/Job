@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ItemGroup>
+    <PackageVersion Include="eController.IntegrationHub.PlugIn" Version="1.8.1" />
+    <PackageVersion Include="eController.Util" Version="2.25.0" />
+    <PackageVersion Include="eMessenger" Version="1.7.1" />
+    <PackageVersion Include="ePlugin.MsBuild" Version="2.4.1" />
+  </ItemGroup>
+</Project>

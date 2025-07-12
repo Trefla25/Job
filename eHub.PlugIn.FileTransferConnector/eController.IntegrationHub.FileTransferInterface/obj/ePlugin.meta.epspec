@@ -1,0 +1,7 @@
+has_epspec_conf=false
+has_epspec_deps=true
+has_epspec_libs=true
+has_epspec_src=false
+lib_framework=net8.0
+lib_version=1.0.1
+lib_namespace=eController.IntegrationHub.FileTransferInterface

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\eController.IntegrationHub.FileTransferInterface.props" />
+</Project>

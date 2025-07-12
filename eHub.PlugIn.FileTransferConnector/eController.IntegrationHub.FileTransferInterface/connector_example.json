@@ -1,0 +1,41 @@
+{
+	"FileTransfer Connector example": {
+		"Type": "FileTransferConnector",
+		"Enabled": true,
+		"PacketTransfer": {
+			"DbPath": "..\\..\\databases\\FileTransferConnector.db",
+			"ChannelGroups": {
+				"Incoming": {
+					"DbPollInterval": "1s",
+					"PacketsPerCycle": 1,
+					"PacketRetention": "30d",
+					"CleanerInterval": "1h",
+					"Channels": [ "Incoming" ]
+				},
+				"Outgoing": {
+					"DbPollInterval": "1s",
+					"PacketsPerCycle": 1,
+					"PacketRetention": "30d",
+					"CleanerInterval": "1h",
+					"Channels": [ "Outgoing" ]
+				}
+			}
+		},
+		"Config": {
+			"FileTransferIncomingRoutes": {
+				"IncomingRoute1": {
+					"IncomingTopic": "FileTransfer.Incoming.Topic",
+					"IncomingPath": "..\\..\\IncomingFiles"
+				}
+			},
+			"FileTransferOutgoingRoutes": {
+				"OutgoingRoute1":{
+					"OutgoingTopic": "FileTransfer.Outgoing.Topic",
+					"OutgoingUnprocessedPath": "..\\..\\OutgoingFiles\\Unprocessed",
+					"OutgoingProcessedPath": "..\\..\\OutgoingFiles\\Processed",
+					"OutgoingErrorPath": "..\\..\\OutgoingFiles\\Error"
+				}
+			}
+		}
+	}
+}

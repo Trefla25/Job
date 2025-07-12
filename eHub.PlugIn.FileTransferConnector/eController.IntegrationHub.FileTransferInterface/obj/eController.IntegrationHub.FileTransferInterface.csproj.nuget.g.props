@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\11ale\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.10.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\11ale\.nuget\packages\" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)eplugin.msbuild\2.4.1\buildTransitive\ePlugin.MsBuild.props" Condition="Exists('$(NuGetPackageRoot)eplugin.msbuild\2.4.1\buildTransitive\ePlugin.MsBuild.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgePlugin_MsBuild Condition=" '$(PkgePlugin_MsBuild)' == '' ">C:\Users\11ale\.nuget\packages\eplugin.msbuild\2.4.1</PkgePlugin_MsBuild>
+    <PkgeMessenger Condition=" '$(PkgeMessenger)' == '' ">C:\Users\11ale\.nuget\packages\emessenger\1.7.1</PkgeMessenger>
+    <PkgeController_Util Condition=" '$(PkgeController_Util)' == '' ">C:\Users\11ale\.nuget\packages\econtroller.util\2.25.0</PkgeController_Util>
+    <PkgeController_IntegrationHub_PlugIn Condition=" '$(PkgeController_IntegrationHub_PlugIn)' == '' ">C:\Users\11ale\.nuget\packages\econtroller.integrationhub.plugin\1.8.1</PkgeController_IntegrationHub_PlugIn>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,109 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\11ale\\source\\repos\\eHub.PlugIn.FileTransferConnector\\eController.IntegrationHub.FileTransferInterface\\eController.IntegrationHub.FileTransferInterface.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\11ale\\source\\repos\\eHub.PlugIn.FileTransferConnector\\eController.IntegrationHub.FileTransferInterface\\eController.IntegrationHub.FileTransferInterface.csproj": {
+      "version": "1.0.1",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\11ale\\source\\repos\\eHub.PlugIn.FileTransferConnector\\eController.IntegrationHub.FileTransferInterface\\eController.IntegrationHub.FileTransferInterface.csproj",
+        "projectName": "eController.IntegrationHub.FileTransferInterface",
+        "projectPath": "C:\\Users\\11ale\\source\\repos\\eHub.PlugIn.FileTransferConnector\\eController.IntegrationHub.FileTransferInterface\\eController.IntegrationHub.FileTransferInterface.csproj",
+        "packagesPath": "C:\\Users\\11ale\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\11ale\\source\\repos\\eHub.PlugIn.FileTransferConnector\\eController.IntegrationHub.FileTransferInterface\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\11ale\\source\\repos\\eHub.PlugIn.FileTransferConnector\\NuGet.Config",
+          "C:\\Users\\11ale\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\11ale\\source\\repos\\eHub.PlugIn.FileTransferConnector\\Nupkg": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/Element-Logic/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "eController.IntegrationHub.PlugIn": {
+              "target": "Package",
+              "version": "[1.8.1, )",
+              "generatePathProperty": true,
+              "versionCentrallyManaged": true
+            },
+            "eController.Util": {
+              "target": "Package",
+              "version": "[2.25.0, )",
+              "generatePathProperty": true,
+              "versionCentrallyManaged": true
+            },
+            "eMessenger": {
+              "target": "Package",
+              "version": "[1.7.1, )",
+              "generatePathProperty": true,
+              "versionCentrallyManaged": true
+            },
+            "ePlugin.MsBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )",
+              "generatePathProperty": true,
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "eController.IntegrationHub.PlugIn": "1.8.1",
+            "eController.Util": "2.25.0",
+            "eMessenger": "1.7.1",
+            "ePlugin.MsBuild": "2.4.1"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

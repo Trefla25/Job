@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZNXilX9hPj6YfICo2hx2AbbU1afZZTXguj8qaFiZieU=",
+  "Source": "eController.IntegrationHub.FileTransferInterface",
+  "BasePath": "_content/eController.IntegrationHub.FileTransferInterface",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

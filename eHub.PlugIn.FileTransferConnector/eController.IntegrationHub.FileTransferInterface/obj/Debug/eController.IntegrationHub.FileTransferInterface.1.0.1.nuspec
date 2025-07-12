@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>eController.IntegrationHub.FileTransferInterface</id>
+    <version>1.0.1</version>
+    <authors>eController.IntegrationHub.FileTransferInterface</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="cdaec3d7b45f7494c3920da03a0174d0c0d9ee0d" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="eController.IntegrationHub.PlugIn" version="1.8.1" exclude="Build,Analyzers" />
+        <dependency id="eController.Util" version="2.25.0" exclude="Build,Analyzers" />
+        <dependency id="eMessenger" version="1.7.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\11ale\source\repos\eHub.PlugIn.FileTransferConnector\eController.IntegrationHub.FileTransferInterface\bin\Debug\net8.0\eController.IntegrationHub.FileTransferInterface.runtimeconfig.json" target="lib\net8.0\eController.IntegrationHub.FileTransferInterface.runtimeconfig.json" />
+    <file src="C:\Users\11ale\source\repos\eHub.PlugIn.FileTransferConnector\eController.IntegrationHub.FileTransferInterface\bin\Debug\net8.0\eController.IntegrationHub.FileTransferInterface.dll" target="lib\net8.0\eController.IntegrationHub.FileTransferInterface.dll" />
+    <file src="C:\Users\11ale\.nuget\packages\econtroller.integrationhub.plugin\1.8.1\lib\net8.0\eController.IntegrationHub.PlugIn.dll" target="e_dependency\eController.IntegrationHub.PlugIn.dll" />
+    <file src="C:\Users\11ale\.nuget\packages\econtroller.util\2.25.0\lib\net8.0\eController.Util.dll" target="e_dependency\eController.Util.dll" />
+    <file src="C:\Users\11ale\.nuget\packages\emessenger\1.7.1\lib\net8.0\eMessenger.dll" target="e_dependency\eMessenger.dll" />
+    <file src="C:\Users\11ale\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\8.0.1\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll" target="e_dependency\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <file src="C:\Users\11ale\.nuget\packages\microsoft.extensions.logging.abstractions\8.0.1\lib\net8.0\Microsoft.Extensions.Logging.Abstractions.dll" target="e_dependency\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <file src="C:\Users\11ale\.nuget\packages\nlog\5.2.7\lib\netstandard2.0\NLog.dll" target="e_dependency\NLog.dll" />
+    <file src="C:\Users\11ale\.nuget\packages\nlog.extensions.logging\5.3.7\lib\net8.0\NLog.Extensions.Logging.dll" target="e_dependency\NLog.Extensions.Logging.dll" />
+    <file src="C:\Users\11ale\.nuget\packages\nlog.web.aspnetcore\5.3.7\lib\net8.0\NLog.Web.AspNetCore.dll" target="e_dependency\NLog.Web.AspNetCore.dll" />
+    <file src="C:\Users\11ale\source\repos\eHub.PlugIn.FileTransferConnector\eController.IntegrationHub.FileTransferInterface\obj\Debug\net8.0\eController.IntegrationHub.FileTransferInterface.pdb" target="lib\net8.0\eController.IntegrationHub.FileTransferInterface.pdb" />
+  </files>
+</package>
