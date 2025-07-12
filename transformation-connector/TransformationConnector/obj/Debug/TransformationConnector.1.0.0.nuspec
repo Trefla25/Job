@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>TransformationConnector</id>
+    <version>1.0.0</version>
+    <authors>TransformationConnector</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="6fdf27904313ce006fff531555c3cfb1e4a62f5b" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="eController.IntegrationHub.PlugIn" version="1.8.2" exclude="Build,Analyzers" />
+        <dependency id="eMessenger" version="1.7.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\11ale\source\repos\transformation-connector\TransformationConnector\bin\Debug\net8.0\TransformationConnector.runtimeconfig.json" target="lib\net8.0\TransformationConnector.runtimeconfig.json" />
+    <file src="C:\Users\11ale\source\repos\transformation-connector\TransformationConnector\bin\Debug\net8.0\TransformationConnector.dll" target="lib\net8.0\TransformationConnector.dll" />
+    <file src="C:\Users\11ale\.nuget\packages\econtroller.integrationhub.plugin\1.8.2\lib\net8.0\eController.IntegrationHub.PlugIn.dll" target="e_dependency\eController.IntegrationHub.PlugIn.dll" />
+    <file src="C:\Users\11ale\.nuget\packages\emessenger\1.7.2\lib\net8.0\eMessenger.dll" target="e_dependency\eMessenger.dll" />
+    <file src="C:\Users\11ale\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\8.0.2\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll" target="e_dependency\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <file src="C:\Users\11ale\.nuget\packages\microsoft.extensions.logging.abstractions\8.0.2\lib\net8.0\Microsoft.Extensions.Logging.Abstractions.dll" target="e_dependency\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <file src="C:\Users\11ale\source\repos\transformation-connector\TransformationConnector\obj\Debug\net8.0\TransformationConnector.pdb" target="lib\net8.0\TransformationConnector.pdb" />
+  </files>
+</package>

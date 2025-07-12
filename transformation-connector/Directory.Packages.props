@@ -1,0 +1,8 @@
+﻿<Project>
+  <ItemGroup>
+    <PackageVersion Include="eController.IntegrationHub.PlugIn" Version="1.8.2" />
+    <PackageVersion Include="eController.Util.Embed" Version="2.26.1" />
+    <PackageVersion Include="eMessenger" Version="1.7.2" />
+    <PackageVersion Include="ePlugin.MsBuild" Version="2.4.2" />
+  </ItemGroup>
+</Project>

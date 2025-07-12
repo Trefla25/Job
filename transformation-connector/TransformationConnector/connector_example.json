@@ -1,0 +1,51 @@
+{
+	"TransformationConnector": {
+		"Type": "TransformationConnector",
+		"Enabled": true,
+		"PacketTransfer": {
+			"DbPath": "C:\\Work\\Databases\\TransformationConnector.db",
+			"ChannelGroups": {
+				"Outgoing": {
+					"DbPollInterval": "3s",
+					"PacketsPerCycle": 10,
+					"PacketRetention": "30d",
+					"CleanerInterval": "1h",
+					"CanResend": "false",
+					"Channels": [ "TransformationToDestination", "TransformationToDestination:Error" ]
+				},
+				"Incoming": {
+					"DbPollInterval": "3s",
+					"PacketsPerCycle": 10,
+					"PacketRetention": "30d",
+					"CleanerInterval": "1h",
+					"CanResend": "false",
+					"Channels": [ "SourceToTransformation", "SourceToTransformation:Error" ]
+				}
+			}
+		},
+
+		"Config": {
+			"TransformationRoutes": {
+				"FunctionsRoute": {
+					"Type": "Conversion",
+					"XsltPath": "..\\..\\config\\Xslts\\PgWcsMovAdv.xslt",
+					"DestinationType": "text/csv",
+					"Functions": [
+						{
+							"Name": "AddDateTimeStamp",
+							"Parameters": {
+								"Format": "yyyy-MM-dd"
+							},
+							"TargetNode": "//DateTime"
+						}
+					],
+					"SourceTopic": "SourceConnector.Forward.ToTransformation",
+					"DestinationTopic": "DestinationConnector.Forward.FromTransformation"
+				}
+			},
+			"SavePackets": true,
+			"IncomingChannel": "SourceToTransformation",
+			"OutgoingChannel": "TransformationToDestination"
+		}
+	}
+}

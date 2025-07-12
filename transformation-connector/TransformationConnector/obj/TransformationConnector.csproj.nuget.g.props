@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\11ale\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.12.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\11ale\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)eplugin.msbuild\2.4.2\buildTransitive\ePlugin.MsBuild.props" Condition="Exists('$(NuGetPackageRoot)eplugin.msbuild\2.4.2\buildTransitive\ePlugin.MsBuild.props')" />
+    <Import Project="$(NuGetPackageRoot)econtroller.util.embed\2.26.1\build\eController.Util.Embed.props" Condition="Exists('$(NuGetPackageRoot)econtroller.util.embed\2.26.1\build\eController.Util.Embed.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgePlugin_MsBuild Condition=" '$(PkgePlugin_MsBuild)' == '' ">C:\Users\11ale\.nuget\packages\eplugin.msbuild\2.4.2</PkgePlugin_MsBuild>
+    <PkgeMessenger Condition=" '$(PkgeMessenger)' == '' ">C:\Users\11ale\.nuget\packages\emessenger\1.7.2</PkgeMessenger>
+    <PkgeController_Util_Embed Condition=" '$(PkgeController_Util_Embed)' == '' ">C:\Users\11ale\.nuget\packages\econtroller.util.embed\2.26.1</PkgeController_Util_Embed>
+    <PkgeController_IntegrationHub_PlugIn Condition=" '$(PkgeController_IntegrationHub_PlugIn)' == '' ">C:\Users\11ale\.nuget\packages\econtroller.integrationhub.plugin\1.8.2</PkgeController_IntegrationHub_PlugIn>
+  </PropertyGroup>
+</Project>
